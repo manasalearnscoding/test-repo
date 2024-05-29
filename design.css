@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header-content h1 {
+  font-size: 36px;
+}
+
+.header-content span {
+  color: #ffd700; /* gold color */
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+}
+
+.about {
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.contact {
+  padding: 100px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact-content input,
+.contact-content textarea,
+.contact-content button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-content button {
+  background-color: #ffd700;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
