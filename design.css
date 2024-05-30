@@ -1,11 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #333;
+  background-color: #234127;
   color: #fff;
   text-align: center;
   padding: 100px 0;
@@ -17,50 +17,50 @@ header {
 }
 
 .header-content h1 {
-  font-size: 36px;
+  font-size: 42px;
 }
 
 .header-content span {
-  color: #ffd700; /* gold color */
+  color: #ffffff; /* white color */
 }
 
 .btn-download {
   display: inline-block;
-  background-color: #ffd700;
-  color: #333;
+  background-color: #ffffff;
+  color: #234127;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   margin-top: 20px;
+  transition: background-color 0.5s;
 }
 
-.arrow {
-  border: solid #fff;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 10px;
-  transform: rotate(45deg);
+.btn-download:hover {
+  background-color: #234127;
+  color: #fff;
 }
 
 .about {
-  padding: 100px 0;
+  padding: 50px 0;
   background-color: #f5f5f5;
 }
 
 .about-content {
   text-align: center;
+  font-size: 18px;
+  max-width: 800px;
+  margin:auto
 }
 
 .about-content img {
   width: 200px;
   border-radius: 50%;
-  margin-top: 30px;
 }
 
 .contact {
   padding: 100px 0;
-  background-color: #333;
+  background-color: #234127;
   color: #fff;
 }
 
@@ -86,8 +86,8 @@ header {
 }
 
 .contact-content button {
-  background-color: #ffd700;
-  color: #333;
+  background-color: #fff;
+  color: #234127;
   font-weight: bold;
   cursor: pointer;
 }
