@@ -8,7 +8,42 @@ header {
   background-color: #234127;
   color: #fff;
   text-align: center;
-  padding: 100px 0;
+  padding: 246px 0;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #234127;
+}
+
+.tab-button {
+  font-family: 'Times New Roman', Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  background-color: #234127;
+  color:#fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 18px 40px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ffffff;
+  color:#000000
+}
+
+.tab button.active {
+  background-color: #ccc;
+  color:#000000
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 .header-content {
@@ -27,7 +62,7 @@ header {
 .btn-download {
   display: inline-block;
   background-color: #ffffff;
-  color: #234127;
+  color: #000000;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -37,12 +72,12 @@ header {
 }
 
 .btn-download:hover {
-  background-color: #234127;
+  background-color: #000000;
   color: #fff;
 }
 
 .about {
-  padding: 50px 0;
+  padding: 82px 0;
   background-color: #f5f5f5;
 }
 
@@ -59,7 +94,7 @@ header {
 }
 
 .contact {
-  padding: 100px 0;
+  padding: 82px 0;
   background-color: #234127;
   color: #fff;
 }

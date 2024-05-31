@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manasa's Portfolio</title>
   <link rel="stylesheet" href="design.css">
+  <div class="tab">
+    <button class="tab-button" onclick="window.location.href='#topabt'">About</button>
+    <button class="tab-button" onclick="window.location.href='#skills'">Skills</button>
+    <button class="tab-button" onclick="window.location.href='#portfolio'">Portfolio</button>
+    <button class="tab-button" onclick="window.location.href='#contact-content'">Contact me!</button>
+  </div>
 </head>
+
 <body>
+
   <header>
     <div class="header-content">
       <h1>Welcome to <span>Manasa</span>'s Portfolio</h1>
-      <a href="Resume.pdf" class="btn-download">Download Resume</a>
+      <a href="Resume.pdf" class="btn-download">Download My Resume</a>
     </div>
   </header>
-  
+  <div id="topabt"></div>
   <section class="about">
     <div class="about-content">
       <h2>About Me</h2>
@@ -23,7 +32,7 @@
   </section>
 
   <section class="contact">
-    <div class="contact-content">
+    <div class="contact-content" id="contact-content">
       <h2>Contact Me!</h2>
       <form action="#">
         <input type="text" placeholder="Your Name">
@@ -37,5 +46,7 @@
   <footer>
     <p>Ready to take your projects to the next level? Let's connect!</p>
   </footer>
+
 </body>
+
 </html>
